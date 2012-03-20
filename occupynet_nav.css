@@ -14,19 +14,19 @@
 
 /*list item levels*/
 #onav_wrapper #onav_bar .onav_top { display:inline-block; line-height:26px; font-size:13px; }
-#onav_wrapper #onav_bar .onav_second {
-    -moz-box-shadow:2px 0 6px rgba(0,0,0,.5);
-    -webkit-box-shadow:2px 0 6px rgba(0,0,0,.5);
-    -o-box-shadow:2px 0 6px rgba(0,0,0,.5);
-    box-shadow:2px 0 6px rgba(0,0,0,.5);
-}
+#onav_wrapper #onav_bar .onav_second {}
 
 #onav_wrapper #onav_bar .onav_right { float: right;}
 
 /*list hierarchy*/
 #onav_wrapper #onav_bar .onav_parent { position: relative; }
 #onav_wrapper #onav_bar .onav_parent:hover > .onav_child { display: block; }
-#onav_wrapper #onav_bar .onav_child { background-color:#000; display:none; position: absolute;}
+#onav_wrapper #onav_bar .onav_child { background-color:#000; display:none; position: absolute;
+    -moz-box-shadow:2px 0 6px rgba(0,0,0,.5);
+    -webkit-box-shadow:2px 0 6px rgba(0,0,0,.5);
+    -o-box-shadow:2px 0 6px rgba(0,0,0,.5);
+    box-shadow:2px 0 6px rgba(0,0,0,.5);
+}
 
 /*all links*/
 #onav_wrapper #onav_bar a,

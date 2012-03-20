@@ -2,10 +2,7 @@ OCCUPY.NET NAV BAR
 ---
 This should be placed into every occupy.net page.
 
-occupynet_nav.php builds the HTML
-occupynet_navArray.php Holds the default navigation array called $baseNav
-* Each item is an array with four settings:
-* 'display' - name of service, if 'href' isn't set it will also be used in building the url (ie: http://DISPLAY.occupy.net)
-* 'href' - (optional) Override the nav item's link, use full url
-* 'title' - (optional) set the title attribute of the anchor (optional)
-* 'status' - 1 = top level nav item, 2 = sub nav item, 3 = hidden item, not yet ready for the nav bar
+simply add the code:
+ <script type="text/javascript" src="occupy_nav.js"></script>
+
+That's it!
