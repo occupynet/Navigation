@@ -1,0 +1,85 @@
+.onav_reset * {margin:0;padding:0;}
+
+#onav_wrapper { background-color:#000; font-family:Arial,Helvetica,sans-serif; font-size:10px; width:100%; height:30px; }
+
+#onav_wrapper #onav_bar { position: relative;}
+
+#onav_wrapper #onav_bar ul { list-style:none; }
+#onav_wrapper #onav_bar li { }
+
+#onav_wrapper #onav_bar .onav_logo { border-left:10px solid black; }
+#onav_wrapper #onav_bar .onav_logo:hover { border-left-color:#FC0; }
+#onav_wrapper #onav_bar .onav_logo .onav_yellow { color:#FC0; }
+#onav_wrapper #onav_bar .onav_logo .onav_white { color:white; }
+
+/*list item levels*/
+#onav_wrapper #onav_bar .onav_top { display:inline-block; line-height:26px; font-size:13px; }
+#onav_wrapper #onav_bar .onav_second {
+    -moz-box-shadow:2px 0 6px rgba(0,0,0,.5);
+    -webkit-box-shadow:2px 0 6px rgba(0,0,0,.5);
+    -o-box-shadow:2px 0 6px rgba(0,0,0,.5);
+    box-shadow:2px 0 6px rgba(0,0,0,.5);
+}
+
+#onav_wrapper #onav_bar .onav_right { float: right;}
+
+/*list hierarchy*/
+#onav_wrapper #onav_bar .onav_parent { position: relative; }
+#onav_wrapper #onav_bar .onav_parent:hover > .onav_child { display: block; }
+#onav_wrapper #onav_bar .onav_child { background-color:#000; display:none; position: absolute;}
+
+/*all links*/
+#onav_wrapper #onav_bar a,
+#onav_wrapper #onav_bar a:link,
+#onav_wrapper #onav_bar a:visited {
+	border-color: #000000;
+    border-style: solid;
+    border-width: 2px 0;
+    color: #AAAAAA;
+    display: block;
+    font-weight: bold;
+    padding: 0 10px;
+    text-decoration: none;
+}
+#onav_wrapper #onav_bar a:hover { color:#EEE; }
+
+/*top links*/
+#onav_wrapper #onav_bar .onav_top a,
+#onav_wrapper #onav_bar .onav_top a:link,
+#onav_wrapper #onav_bar .onav_top a:visited {}
+#onav_wrapper #onav_bar .onav_top a:hover {}
+
+/*active links*/
+#onav_wrapper #onav_bar > .onav_active a,
+#onav_wrapper #onav_bar > .onav_active a:link,
+#onav_wrapper #onav_bar > .onav_active a:visited { color:#FFF; border-top-color:#FC0;}
+#onav_wrapper #onav_bar > .onav_active a:hover {}
+
+/*second level links*/
+#onav_wrapper #onav_bar .onav_second a,
+#onav_wrapper #onav_bar .onav_second a:link,
+#onav_wrapper #onav_bar .onav_second a:visited {}
+#onav_wrapper #onav_bar .onav_second a:hover {}
+
+/*help button*/
+#onav_wrapper #onav_bar .onav_question {}
+
+#onav_wrapper #onav_bar .onav_question a,
+#onav_wrapper #onav_bar .onav_question a:link,
+#onav_wrapper #onav_bar .onav_question a:visited {
+	background-color: #FFCC00;
+    border: 1px solid #885500;
+    color: #000000;
+    height: 20px;
+    line-height: 20px;
+    margin: 4px 10px 0 0;
+    padding: 0;
+    text-align: center;
+    width: 20px;
+
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    -o-border-radius: 10px 10px 10px 10px;
+    border-radius: 10px 10px 10px 10px;
+}
+#onav_wrapper #onav_bar .onav_question a:hover { background-color:#FD5; }
