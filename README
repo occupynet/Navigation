@@ -3,6 +3,6 @@ OCCUPY.NET NAV BAR
 This should be placed into every occupy.net page.
 
 simply add the code:
- <script type="text/javascript" src="http://nav.occupy.net/occupy_nav.js"></script>
+ <script type="text/javascript" src="http://nav.occupy.net/occupynet_nav.js"></script>
 
 That's it!
