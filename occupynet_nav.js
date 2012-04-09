@@ -4,7 +4,7 @@ navObj.outHtml += '<!--[if lt IE 7]> <div class="onav_wrapper lt-ie9 lt-ie8 lt-i
 navObj.outHtml += '<!--[if IE 7]>    <div class="onav_wrapper lt-ie9 lt-ie8"> <![endif]-->';
 navObj.outHtml += '<!--[if IE 8]>    <div class="onav_wrapper lt-ie9"> <![endif]-->';
 navObj.outHtml += '<!--[if gt IE 8]><!--> <div id="onav_wrapper" class="onav_reset"> <!--<![endif]-->';
-navObj.outHtml += '<link rel="stylesheet" href="http://navbar.occupy.net/occupynet_nav.css">';
+navObj.outHtml += '<link rel="stylesheet" href="http://nav.occupy.net/occupynet_nav.css">';
 navObj.outHtml += '	<ul id="onav_bar">';
 navObj.outHtml += '		<li class="onav_top onav_logo"><a href="#"><span class="onav_yellow">Occupy</span>.<span class="onav_white">Net</span></a>';
 navObj.outHtml += '		<li class="onav_top"><a href="http://Directory.occupy.net/" target="_blank" title="">Directory</a></li>';
