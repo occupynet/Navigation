@@ -1,3 +1,5 @@
+var tracker = true;
+
 var navObj = {}; 
 navObj.outHtml = '';
 navObj.outHtml += '<!--[if lt IE 7]> <div class="onav_wrapper lt-ie9 lt-ie8 lt-ie7"> <![endif]-->';
@@ -22,8 +24,11 @@ navObj.outHtml += '                <li class="onav_second"><a href="http://Class
 navObj.outHtml += '                <li class="onav_second"><a href="http://Tech.occupy.net/" target="_blank" title="">Tech</a></li>';
 navObj.outHtml += '         </ul>';
 navObj.outHtml += '     </li>';
-navObj.outHtml += '		<li class="onav_question onav_right" style="display:none;"><a href="#">?</a></li>';
+//navObj.outHtml += '		<li class="onav_question onav_right" style="display:none;"><a href="#">?</a></li>';
 navObj.outHtml += '	</ul>';
+if (tracker) {
+	navObj.outHtml += '<img src="https://nav.occupy.net/tracker.gif" border="0" title="This little gif helps us track useage of the nav bar" />';
+}
 navObj.outHtml += '</div>';
 document.write(navObj.outHtml);
 
