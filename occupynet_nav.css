@@ -83,3 +83,73 @@
     border-radius: 10px 10px 10px 10px;
 }
 #onav_wrapper #onav_bar .onav_question a:hover { background-color:#FD5; }
+
+/* Occupy Nav button */
+
+#onav_button {
+    background-color: #000000;
+    border: 1px solid #444444;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 10px;
+    position: relative;
+
+    -webkit-border-radius: 3px 3px 3px 3px;
+    -moz-border-radius: 3px 3px 3px 3px;
+    border-radius: 3px 3px 3px 3px;
+    -webkit-box-shadow: 0 0 5px #444444 inset;
+    -moz-box-shadow: 0 0 5px #444444 inset;
+    box-shadow: 0 0 5px #444444 inset;
+}
+
+#onav_button:hover { 
+    border-color:#FC0;
+
+    -webkit-box-shadow: 0 0 15px #FFF;
+    -moz-box-shadow: 0 0 15px #FFF;
+    box-shadow: 0 0 15px #FFF;
+    -webkit-border-radius: 3px 3px 0 0;
+    -moz-border-radius: 3px 3px 0 0;
+    border-radius: 3px 3px 0 0;
+    -moz-transition:boxShadow .5s ease-out;
+}
+
+/*all links*/
+#onav_button a,
+#onav_button a:link,
+#onav_button a:visited {
+    color: #AAAAAA;
+    display: block;
+    font-weight: bold;
+    padding: 5px;
+    text-decoration: none;
+}
+
+#onav_button a:hover { color:#EEE; }
+
+#onav_button .onav_logo { font-size:15px; text-align:center; }
+#onav_button .onav_logo:hover {  }
+#onav_button .onav_logo .onav_yellow { color:#FC0; }
+#onav_button .onav_logo .onav_white { color:white; }
+
+#onav_button .onav_drop { 
+    display: none;
+    background-color: black;
+    border-left: 1px solid #FC0;
+    border-right: 1px solid #FC0;
+    border-bottom: 1px solid #FC0;
+    position: absolute;
+    left: -1px;
+    width: 100%;
+    z-index:5000;
+
+    -webkit-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    -webkit-border-radius: 0 0 3px 3px;
+    -moz-border-radius: 0 0 3px 3px;
+    border-radius: 0 0 3px 3px;
+}
+#onav_button:hover .onav_drop { display:block; }
+
+#onav_button .onav_drop .onav_menu { list-style: none outside none; }
+#onav_button .onav_drop .onav_menu .onav_text { color: #888; padding:5px; }

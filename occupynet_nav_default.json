@@ -1,0 +1,48 @@
+{"onav": {
+    "type": "bar/button/nav",
+    "target" : "#id to place nav, if false drop html in place",
+    "menu": [
+        {
+            "type" : "link/text/etc",
+            "display" : "menu item display text",
+            "href" : "http://www.link.com",
+            "target" : "_blank",
+            "class" : "extra classes",
+            "title" : "menu item title",
+            "child" : false
+        },
+        {
+            "display" : "Map",
+            "href" : "http://map.occupy.net",
+            "target" : "_blank",
+            "class" : null,
+            "title" : "See actions and raw news from all over the world",
+            "child" : false
+        },
+        {
+            "display" : "More...",
+            "href" : "http://www.occupy.net#tools",
+            "target" : "_blank",
+            "class" : null,
+            "title" : "Other occupy.net products",
+            "child" : [
+                {
+                    "display" : "Chat",
+                    "href" : "http://chat.occupy.net",
+                    "target" : "_blank",
+                    "class" : null,
+                    "title" : "chat with activist",
+                    "child" : false
+                },
+                {
+                    "display" : "Live",
+                    "href" : "http://live.occupy.net",
+                    "target" : "_blank",
+                    "class" : null,
+                    "title" : "Make live updates to status.net",
+                    "child" : false
+                }
+            ]
+        }
+    ]
+}} 
