@@ -9,6 +9,7 @@
             "target" : "_blank",
             "class" : "extra classes",
             "title" : "menu item title",
+            "attr" : "data-type=\"this and that\"",
             "child" : false
         },
         {
