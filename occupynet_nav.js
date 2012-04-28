@@ -7,11 +7,14 @@ navObj.outHtml += '<!--[if gt IE 8]><!--> <div id="onav_wrapper" class="onav_res
 navObj.outHtml += '<link rel="stylesheet" href="https://nav.occupy.net/occupynet_nav.css">';
 navObj.outHtml += '	<ul id="onav_bar">';
 navObj.outHtml += '		<li class="onav_top onav_logo"><a href="http://www.occupy.net"><span class="onav_yellow">Occupy</span>.<span class="onav_white">Net</span></a>';
-// navObj.outHtml += '		<li class="onav_top"><a href="http://Directory.occupy.net/" target="_blank" title="">Directory</a></li>';
-navObj.outHtml += '        <li class="onav_top"><a href="http://Map.occupy.net/" target="_blank" title="">Map</a></li>';
+navObj.outHtml += '		<li class="onav_top"><a href="http://Directory.occupy.net/" target="_blank" title="">Directory</a></li>';
 navObj.outHtml += '        <li class="onav_top"><a href="http://Wiki.occupy.net/" target="_blank" title="">Wiki</a></li>';
 navObj.outHtml += '        <li class="onav_top"><a href="http://Notes.occupy.net/" target="_blank" title="">Notes</a></li>';
-// navObj.outHtml += '        <li class="onav_top"><a href="http://Ideas.occupy.net/" target="_blank" title="">Ideas</a></li>';
+navObj.outHtml += '        <li class="onav_top"><a href="http://Ideas.occupy.net/" target="_blank" title="">Ideas</a></li>';
+navObj.outHtml += '        <li class="onav_top"><a href="http://lists.occupy.net/" target="_blank" title="">Lists</a></li>';
+navObj.outHtml += '        <li class="onav_top"><a href="http://Map.occupy.net/" target="_blank" title="">Map</a></li>';
+navObj.outHtml += '        <li class="onav_top"><a href="http://Campaigns.occupy.net/" target="_blank" title="">Campaigns</a></li>';
+navObj.outHtml += '        <li class="onav_top"><a href="http://Classifieds.occupy.net/" target="_blank" title="">Classifieds</a></li>';
 // navObj.outHtml += '		<li class="onav_top onav_parent"><a href="http://occupy.net/" target="_blank">More...</a>';
 // navObj.outHtml += '         <ul class="onav_child">';
 // navObj.outHtml += '             <li class="onav_second"><a href="http://Newswire.occupy.net/" target="_blank" title="">Newswire</a></li>';
