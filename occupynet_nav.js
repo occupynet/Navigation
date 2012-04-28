@@ -9,7 +9,7 @@ navObj.outHtml += '	<ul id="onav_bar">';
 navObj.outHtml += '		<li class="onav_top onav_logo"><a href="http://www.occupy.net"><span class="onav_yellow">Occupy</span>.<span class="onav_white">Net</span></a>';
 navObj.outHtml += '		<li class="onav_top"><a href="http://Directory.occupy.net/" target="_blank" title="">Directory</a></li>';
 navObj.outHtml += '     <li class="onav_top"><a href="http://Wiki.occupy.net/" target="_blank" title="">Wiki</a></li>';
-navObj.outHtml += '     <li class="onav_top"><a href="https://Notes.occupy.net/" target="_blank" title="">Notes</a></li>';
+navObj.outHtml += '     <li class="onav_top"><a href="http://Notes.occupy.net/" target="_blank" title="">Notes</a></li>';
 navObj.outHtml += '     <li class="onav_top"><a href="http://Ideas.occupy.net/" target="_blank" title="">Ideas</a></li>';
 // navObj.outHtml += '     <li class="onav_top"><a href="http://lists.occupy.net/" target="_blank" title="">Lists</a></li>';
 navObj.outHtml += '     <li class="onav_top"><a href="http://Map.occupy.net/" target="_blank" title="">Map</a></li>';
