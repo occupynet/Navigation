@@ -11,7 +11,7 @@ navObj.outHtml += '		<li class="onav_top"><a href="http://Directory.occupy.net/"
 navObj.outHtml += '     <li class="onav_top"><a href="http://Wiki.occupy.net/" target="_blank" title="">Wiki</a></li>';
 navObj.outHtml += '     <li class="onav_top"><a href="https://Notes.occupy.net/" target="_blank" title="">Notes</a></li>';
 navObj.outHtml += '     <li class="onav_top"><a href="http://Ideas.occupy.net/" target="_blank" title="">Ideas</a></li>';
-navObj.outHtml += '     <li class="onav_top"><a href="http://lists.occupy.net/" target="_blank" title="">Lists</a></li>';
+// navObj.outHtml += '     <li class="onav_top"><a href="http://lists.occupy.net/" target="_blank" title="">Lists</a></li>';
 navObj.outHtml += '     <li class="onav_top"><a href="http://Map.occupy.net/" target="_blank" title="">Map</a></li>';
 navObj.outHtml += '     <li class="onav_top"><a href="http://Campaigns.occupy.net/" target="_blank" title="">Campaigns</a></li>';
 navObj.outHtml += '     <li class="onav_top"><a href="http://Classifieds.occupy.net/" target="_blank" title="">Classifieds</a></li>';
@@ -34,7 +34,7 @@ var occupynetAnchors = document.getElementById('onav_bar').getElementsByTagName(
 
 for (i=0; i<occupynetAnchors.length; i++) {
     var testAttr = occupynetAnchors[i].parentNode.getAttribute('class');
-    if (occupynetAnchors[i].href == window.location.href) {
+    if (occupynetAnchors[i].href == window.location) {
         if (testAttr  === null) {
             occupynetAnchors[i].parentNode.setAttribute('class', 'onav_active');
         } else{
