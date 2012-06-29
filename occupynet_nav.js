@@ -10,7 +10,7 @@ navObj.outHtml += '		<li class="onav_top onav_logo"><a href="http://www.occupy.n
 navObj.outHtml += '		<li class="onav_top onav-directory"><a href="http://Directory.occupy.net/" target="_blank" title=""><span class="onav_icon"></span>Directory</a></li>';
 navObj.outHtml += '     <li class="onav_top onav-wiki"><a href="http://Wiki.occupy.net/" target="_blank" title=""><span class="onav_icon"></span>Wiki</a></li>';
 navObj.outHtml += '     <li class="onav_top onav-notes"><a href="http://Notes.occupy.net/" target="_blank" title=""><span class="onav_icon"></span>Notes</a></li>';
-navObj.outHtml += '     <li class="onav_top onav-ideas"><a href="http://Ideas.occupy.net/" target="_blank" title=""><span class="onav_icon"></span>Ideas</a></li>';
+// navObj.outHtml += '     <li class="onav_top onav-ideas"><a href="http://Ideas.occupy.net/" target="_blank" title=""><span class="onav_icon"></span>Ideas</a></li>';
 // navObj.outHtml += '     <li class="onav_top"><a href="http://lists.occupy.net/" target="_blank" title=""><span class="onav_icon"></span>Lists</a></li>';
 navObj.outHtml += '     <li class="onav_top onav-map"><a href="http://Map.occupy.net/" target="_blank" title=""><span class="onav_icon"></span>Map</a></li>';
 navObj.outHtml += '     <li class="onav_top onav-campaigns"><a href="http://Campaigns.occupy.net/" target="_blank" title=""><span class="onav_icon"></span>Campaigns</a></li>';
