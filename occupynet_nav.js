@@ -15,7 +15,7 @@ navObj.outHtml += '     <li class="onav_top onav-notes"><a href="http://Notes.oc
 navObj.outHtml += '     <li class="onav_top onav-map"><a href="http://Map.occupy.net/" target="_blank" title=""><span class="onav_icon"></span>Map</a></li>';
 navObj.outHtml += '     <li class="onav_top onav-campaigns"><a href="http://Campaigns.occupy.net/" target="_blank" title=""><span class="onav_icon"></span>Campaigns</a></li>';
 navObj.outHtml += '     <li class="onav_top onav-classifieds"><a href="http://Classifieds.occupy.net/" target="_blank" title=""><span class="onav_icon"></span>Classifieds</a></li>';
-navObj.outHtml += '     <li class="onav_top onav-tempcheck"><a href="http://tempcheck.occupy.net/" target="_blank" title=""><span class="onav_icon"></span>Temp Check</a></li>';
+// navObj.outHtml += '     <li class="onav_top onav-tempcheck"><a href="http://tempcheck.occupy.net/" target="_blank" title=""><span class="onav_icon"></span>Temp Check</a></li>';
 // navObj.outHtml += '		<li class="onav_top onav_parent"><a href="http://occupy.net/" target="_blank">More...</a>';
 // navObj.outHtml += '         <ul class="onav_child">';
 // navObj.outHtml += '             <li class="onav_second"><a href="http://Newswire.occupy.net/" target="_blank" title="">Newswire</a></li>';
